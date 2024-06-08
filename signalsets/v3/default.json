@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "797", "rax": "79A", "cmd": { "22": "1103" }, "freq": 0.25,
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": { "22": "1103" }, "freq": 5,
   "signals": [
     { "id": "LEAF_VPWR", "path": "Battery", "fmt": { "len": 8, "max": 20.4, "div": 12.5, "unit": "volts" }, "name": "12V battery voltage"}
   ]}
