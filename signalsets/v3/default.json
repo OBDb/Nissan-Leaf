@@ -1,7 +1,11 @@
-{ "commands": [
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": { "22": "1103" }, "freq": 5,
+{ "diagnosticLevel": "0C",
+  "commands": [
+{ "hdr": "79B", "rax": "7BB", "fcm1": true, "cmd": {"21": "01"}, "freq": 1,
   "signals": [
-    { "id": "LEAF_VPWR", "path": "Battery", "fmt": { "len": 8, "max": 20.4, "div": 12.5, "unit": "volts" }, "name": "12V battery voltage"}
+    {"id": "LEAF_HVBAT_VOLT", "path": "Battery", "fmt": {"bix": 144, "len": 16, "max": 655,  "div": 100,   "unit": "volts"       }, "name": "High voltage battery voltage"},
+    {"id": "LEAF_HVBAT_SOH",  "path": "Battery", "fmt": {"bix": 224, "len": 16, "max": 100,  "div": 102.4, "unit": "percent"     }, "name": "High voltage battery health",   "description": "When the battery is new, its health should be ~100%."},
+    {"id": "LEAF_HVBAT_SOC",  "path": "Battery", "fmt": {"bix": 248, "len": 24, "max": 100,  "div": 10000, "unit": "percent"     }, "name": "High voltage battery charge"},
+    {"id": "LEAF_HVBAT_CAP",  "path": "Battery", "fmt": {"bix": 280, "len": 24, "max": 1000, "div": 10000, "unit": "ampereHours" }, "name": "High voltage battery capacity"}
   ]}
 ]
 }
