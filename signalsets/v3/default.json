@@ -4,6 +4,18 @@
   "signals": [
     {"id": "LEAF_VPWR", "path": "Battery", "fmt": { "len": 8, "max": 30, "div": 12.5, "unit": "volts" }, "name": "12V battery voltage"}
   ]},
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1106"}, "freq": 1,
+  "signals": [
+    {"id": "LEAF_AC_ON", "path": "Climate", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "A/C state"}
+  ]},
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "110F"}, "freq": 1,
+  "signals": [
+    {"id": "LEAF_HTR_REAR", "path": "Climate", "fmt": { "len": 8, "map": {"162":{"description":"Heater is on","value":"HEATER_ON"}} }, "name": "Rear heater state"}
+  ]},
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1146"}, "freq": 1,
+  "signals": [
+    {"id": "LEAF_MOTOR_PWR", "path": "Engine", "fmt": { "len": 16, "max": 2621400, "mul": 40, "unit": "watts" }, "name": "Motor power"}
+  ]},
 { "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "114E"}, "freq": 1,
   "signals": [
     {"id": "LEAF_CHARGE_MODE", "path": "Battery", "fmt": { "len": 8, "map": {"0":{"description":"Not charging","value":"NOT_CHARGING"},"1":{"description":"L1 charging (100-120V)","value":"CHARGING_L1"},"2":{"description":"L2 charging (200-240V)","value":"CHARGING_L2"},"3":{"description":"L3 quick charging","value":"CHARGING_L3"}} }, "name": "Charging mode", "suggestedMetric": "isCharging"}
@@ -36,9 +48,17 @@
   "signals": [
     {"id": "LEAF_L1L2CHRG_CNT", "path": "Battery.Statistics", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Quick charge count", "description": "Increments each time an L1/L2 charge occurs, even if only partially."}
   ]},
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "121A"}, "freq": 1,
+  "signals": [
+    {"id": "LEAF_VSS", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+  ]},
 { "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1234"}, "freq": 1,
   "signals": [
     {"id": "LEAF_CHARGE_PLUG", "path": "Battery", "fmt": { "len": 8, "map": {"0":{"description":"Not plugged in","value":"UNPLUGGED"},"1":{"description":"Partially plugged in","value":"PLUGGED_PARTIAL"},"2":{"description":"Plugged in","value":"PLUGGED"}} }, "name": "L1/L2 charge port plug state", "suggestedMetric": "pluggedIn"}
+  ]},
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1236"}, "freq": 1,
+  "signals": [
+    {"id": "LEAF_CHRG_PWR", "path": "Battery", "fmt": { "len": 16, "max": 6553500, "mul": 100, "unit": "watts" }, "name": "Charging power", "description": "Power entering the high voltage battery while charging."}
   ]},
 { "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1255"}, "freq": 1,
   "signals": [
@@ -55,6 +75,14 @@
 { "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1304"}, "freq": 1,
   "signals": [
     {"id": "LEAF_IGN", "path": "Engine", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Power switch"}
+  ]},
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1318"}, "freq": 1,
+  "signals": [
+    {"id": "LEAF_ECO_MODE", "path": "Climate", "fmt": { "len": 8, "map": {"16":{"description":"ECO is on","value":"ECO_ON_1"}},"17":{"description":"ECO is on","value":"ECO_ON_2"}}, "name": "ECO mode state"}
+  ]},
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "131A"}, "freq": 1,
+  "signals": [
+    {"id": "LEAF_EPEDAL_MODE", "path": "Control", "fmt": { "len": 8, "map": {"4":{"description":"E-pedal mode is on","value":"EPEDAL_ON"}}}, "name": "E-pedal mode"}
   ]},
 { "hdr": "79B", "rax": "7BB", "fcm1": true, "cmd": {"21": "01"}, "freq": 1,
   "signals": [
