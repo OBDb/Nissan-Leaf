@@ -1,4 +1,4 @@
-{ "diagnosticLevel": "0C",
+{ "diagnosticLevel": "C0",
   "commands": [
 { "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E01"}, "freq": 1,
   "signals": [
