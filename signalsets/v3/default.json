@@ -1,5 +1,29 @@
 { "diagnosticLevel": "0C",
   "commands": [
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E01"}, "freq": 1,
+  "signals": [
+    {"id": "LEAF_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "12V battery voltage", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E24"}, "freq": 1,
+  "signals": [
+    {"id": "LEAF_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
+  ]},
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15,
+  "signals": [
+    {"id": "LEAF_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+  ]},
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E26"}, "freq": 15,
+  "signals": [
+    {"id": "LEAF_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "unit": "kilopascal" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+  ]},
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15,
+  "signals": [
+    {"id": "LEAF_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "unit": "kilopascal" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
+  ]},
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15,
+  "signals": [
+    {"id": "LEAF_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "unit": "kilopascal" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+  ]},
 { "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1103"}, "freq": 1,
   "signals": [
     {"id": "LEAF_VPWR", "path": "Battery", "fmt": { "len": 8, "max": 30, "div": 12.5, "unit": "volts" }, "name": "12V battery voltage"}
@@ -78,11 +102,11 @@
   ]},
 { "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1318"}, "freq": 1,
   "signals": [
-    {"id": "LEAF_ECO_MODE", "path": "Climate", "fmt": { "len": 8, "map": {"16":{"description":"ECO is on","value":"ECO_ON_1"}},"17":{"description":"ECO is on","value":"ECO_ON_2"}}, "name": "ECO mode state"}
+    {"id": "LEAF_ECO_MODE", "path": "Climate", "fmt": { "len": 8, "map": {"16":{"description":"ECO is on","value":"ECO_ON_1"},"17":{"description":"ECO is on","value":"ECO_ON_2"}} }, "name": "ECO mode state"}
   ]},
 { "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "131A"}, "freq": 1,
   "signals": [
-    {"id": "LEAF_EPEDAL_MODE", "path": "Control", "fmt": { "len": 8, "map": {"4":{"description":"E-pedal mode is on","value":"EPEDAL_ON"}}}, "name": "E-pedal mode"}
+    {"id": "LEAF_EPEDAL_MODE", "path": "Control", "fmt": { "len": 8, "map": {"4":{"description":"E-pedal mode is on","value":"EPEDAL_ON"}} }, "name": "E-pedal mode"}
   ]},
 { "hdr": "79B", "rax": "7BB", "fcm1": true, "cmd": {"21": "01"}, "freq": 1,
   "signals": [
