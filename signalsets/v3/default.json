@@ -22,7 +22,7 @@
   ]},
 { "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E2E"}, "freq": 1,
   "signals": [
-    {"id": "LEAF_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
+    {"id": "LEAF_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "unit": "kilometers" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
   ]},
 { "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1103"}, "freq": 1,
   "signals": [
