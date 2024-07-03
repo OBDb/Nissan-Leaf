@@ -2,11 +2,7 @@
   "commands": [
 { "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E01"}, "freq": 1,
   "signals": [
-    {"id": "LEAF_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "12V battery voltage", "suggestedMetric": "odometer"}
-  ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E24"}, "freq": 1,
-  "signals": [
-    {"id": "LEAF_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
+    {"id": "LEAF_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15,
   "signals": [
@@ -23,6 +19,10 @@
 { "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15,
   "signals": [
     {"id": "LEAF_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "unit": "kilopascal" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+  ]},
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E2E"}, "freq": 1,
+  "signals": [
+    {"id": "LEAF_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
   ]},
 { "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1103"}, "freq": 1,
   "signals": [
@@ -110,10 +110,10 @@
   ]},
 { "hdr": "79B", "rax": "7BB", "fcm1": true, "cmd": {"21": "01"}, "freq": 1,
   "signals": [
-    {"id": "LEAF_HVBAT_VOLT", "path": "Battery", "fmt": {"bix": 144, "len": 16, "max": 655,  "div": 100,   "unit": "volts"       }, "name": "High voltage battery voltage"},
-    {"id": "LEAF_HVBAT_SOH",  "path": "Battery", "fmt": {"bix": 224, "len": 16, "max": 100,  "div": 102.4, "unit": "percent"     }, "name": "High voltage battery health",   "suggestedMetric": "stateOfHealth", "description": "When the battery is new, its health should be ~100%."},
-    {"id": "LEAF_HVBAT_SOC",  "path": "Battery", "fmt": {"bix": 248, "len": 24, "max": 100,  "div": 10000, "unit": "percent"     }, "name": "High voltage battery charge",   "suggestedMetric": "stateOfCharge"},
-    {"id": "LEAF_HVBAT_CAP",  "path": "Battery", "fmt": {"bix": 280, "len": 24, "max": 1000, "div": 10000, "unit": "ampereHours" }, "name": "High voltage battery capacity"}
+    {"id": "LEAF_HVBAT_VOLT", "path": "Battery", "fmt": {"bix": 144, "len": 16, "max": 655,  "div": 100,              "unit": "volts"       }, "name": "High voltage battery voltage"},
+    {"id": "LEAF_HVBAT_SOH",  "path": "Battery", "fmt": {"bix": 224, "len": 16, "max": 100,  "div": 102.4,            "unit": "percent"     }, "name": "High voltage battery health",   "suggestedMetric": "stateOfHealth", "description": "When the battery is new, its health should be ~100%."},
+    {"id": "LEAF_HVBAT_SOC",  "path": "Battery", "fmt": {"bix": 248, "len": 24, "max": 100,  "div": 10000, "add": -4, "unit": "percent"     }, "name": "High voltage battery charge",   "suggestedMetric": "stateOfCharge"},
+    {"id": "LEAF_HVBAT_CAP",  "path": "Battery", "fmt": {"bix": 280, "len": 24, "max": 1000, "div": 10000,            "unit": "ampereHours" }, "name": "High voltage battery capacity"}
   ]}
 ]
 }
