@@ -106,17 +106,17 @@
   ]},
 { "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "131A"}, "freq": 1,
   "signals": [
-    {"id": "LEAF_EPEDAL_MODE", "path": "Control", "fmt": { "len": 8, "map": {"4":{"description":"E-pedal mode is on","value":"EPEDAL_ON"}} }, "name": "E-pedal mode"}
+    {"id": "LEAF_EPEDAL_MODE", "path": "Control", "fmt": { "len": 8, "map": {"0":{"description":"E-pedal mode is off","value":"EPEDAL_OFF"},"4":{"description":"E-pedal mode is on","value":"EPEDAL_ON"}} }, "name": "E-pedal mode"}
   ]},
 { "hdr": "79B", "rax": "7BB", "fcm1": true, "cmd": {"21": "01"}, "freq": 1,
   "signals": [
-    {"id": "LEAF_HVBAT_VOLT", "path": "Battery", "fmt": {"bix": 144, "len": 16, "max": 655,  "div": 100,              "unit": "volts"       }, "name": "High voltage battery voltage"},
-    {"id": "LEAF_HVBAT_SOC",  "path": "Battery", "fmt": {"bix": 248, "len": 24, "max": 100,  "div": 8190, "add": -17, "unit": "percent"     }, "name": "High voltage battery charge",   "suggestedMetric": "stateOfCharge"},
-    {"id": "LEAF_HVBAT_CAP",  "path": "Battery", "fmt": {"bix": 280, "len": 24, "max": 1000, "div": 10000,            "unit": "ampereHours" }, "name": "High voltage battery capacity"}
+    {"id": "LEAF_HVBAT_VOLT", "path": "Battery", "fmt": {"bix": 144, "len": 16, "max": 655,  "div": 100,               "unit": "volts"       }, "name": "High voltage battery voltage"},
+    {"id": "LEAF_HVBAT_SOC",  "path": "Battery", "fmt": {"bix": 248, "len": 24, "max": 100,  "div": 8190,  "add": -17, "unit": "percent"     }, "name": "High voltage battery charge",   "suggestedMetric": "stateOfCharge"},
+    {"id": "LEAF_HVBAT_CAP",  "path": "Battery", "fmt": {"bix": 280, "len": 24, "max": 1000, "div": 10000,             "unit": "ampereHours" }, "name": "High voltage battery capacity"}
   ]},
 { "hdr": "79B", "rax": "7BB", "fcm1": true, "cmd": {"21": "61"}, "freq": 3600,
   "signals": [
-    {"id": "LEAF_HVBAT_SOH",  "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 100,  "div": 100,            "unit": "percent"     }, "name": "High voltage battery health",   "suggestedMetric": "stateOfHealth", "description": "When the battery is new, its health should be ~100%."}
+    {"id": "LEAF_HVBAT_SOH", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "High voltage battery health", "suggestedMetric": "stateOfHealth", "description": "When the battery is new, its health should be ~100%."}
   ]}
 ]
 }
