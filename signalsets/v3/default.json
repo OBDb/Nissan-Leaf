@@ -102,7 +102,7 @@
   ]},
 { "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1318"}, "freq": 1,
   "signals": [
-    {"id": "LEAF_ECO_MODE", "path": "Climate", "fmt": { "len": 8, "map": {"16":{"description":"ECO is on","value":"ECO_ON_1"},"17":{"description":"ECO is on","value":"ECO_ON_2"}} }, "name": "ECO mode state"}
+    {"id": "LEAF_ECO_MODE", "path": "Climate", "fmt": { "len": 8, "map": {"0":{"description":"ECO is off","value":"ECO_OFF"},"16":{"description":"ECO is on","value":"ECO_ON_1"},"17":{"description":"ECO is on","value":"ECO_ON_2"}} }, "name": "ECO mode state"}
   ]},
 { "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "131A"}, "freq": 1,
   "signals": [
