@@ -1,0 +1,5 @@
+command_id: 797.79A.221261|fc=1
+test_cases:
+- expected_values:
+    LEAF_AC_PWR_EST: 0
+  response: 79A0462126100
