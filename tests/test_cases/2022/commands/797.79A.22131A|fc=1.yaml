@@ -1,0 +1,5 @@
+command_id: 797.79A.22131A|fc=1
+test_cases:
+- expected_values:
+    LEAF_EPEDAL_MODE: EPEDAL_OFF
+  response: 79A0562131A0014
