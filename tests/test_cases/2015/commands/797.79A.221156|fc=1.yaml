@@ -1,0 +1,8 @@
+command_id: 797.79A.221156|fc=1
+test_cases:
+- expected_values:
+    LEAF_GEAR: PARK
+  response: 79A0462115601
+- expected_values:
+    LEAF_GEAR: ECO
+  response: 79A0462115607
