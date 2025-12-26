@@ -1,0 +1,5 @@
+command_id: 797.79A.22110F|fc=1
+test_cases:
+- expected_values:
+    LEAF_HTR_REAR: HEATER_ON
+  response: 79A0462110FA2

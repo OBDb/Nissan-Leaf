@@ -1,0 +1,23 @@
+command_id: 797.79A.22121A|fc=1
+test_cases:
+- expected_values:
+    LEAF_VSS: 0
+  response: 79A0562121A0000
+- expected_values:
+    LEAF_VSS: 17.8
+  response: 79A0562121A00B2
+- expected_values:
+    LEAF_VSS: 26.9
+  response: 79A0562121A010D
+- expected_values:
+    LEAF_VSS: 27.7
+  response: 79A0562121A0115
+- expected_values:
+    LEAF_VSS: 52.5
+  response: 79A0562121A020D
+- expected_values:
+    LEAF_VSS: 60
+  response: 79A0562121A0258
+- expected_values:
+    LEAF_VSS: 66.9
+  response: 79A0562121A029D
