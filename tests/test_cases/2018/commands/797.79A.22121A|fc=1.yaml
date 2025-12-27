@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     LEAF_VSS: 0
   response: 79A0562121A0000
+- expected_values:
+    LEAF_VSS: 16.1
+  response: 79A0562121A00A1
+- expected_values:
+    LEAF_VSS: 33.6
+  response: 79A0562121A0150
+- expected_values:
+    LEAF_VSS: 34.7
+  response: 79A0562121A015B
+- expected_values:
+    LEAF_VSS: 39.4
+  response: 79A0562121A018A
+- expected_values:
+    LEAF_VSS: 54.7
+  response: 79A0562121A0223
+- expected_values:
+    LEAF_VSS: 61.7
+  response: 79A0562121A0269
+- expected_values:
+    LEAF_VSS: 75.5
+  response: 79A0562121A02F3
+- expected_values:
+    LEAF_VSS: 76.6
+  response: 79A0562121A02FE
+- expected_values:
+    LEAF_VSS: 79.2
+  response: 79A0562121A0318
