@@ -1,0 +1,14 @@
+command_id: 797.79A.221103|fc=1
+test_cases:
+- expected_values:
+    LEAF_VPWR: 12.56
+  response: 79A046211039D
+- expected_values:
+    LEAF_VPWR: 12.96
+  response: 79A04621103A2
+- expected_values:
+    LEAF_VPWR: 14.56
+  response: 79A04621103B6
+- expected_values:
+    LEAF_VPWR: 14.64
+  response: 79A04621103B7
