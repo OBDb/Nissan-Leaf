@@ -4,5 +4,17 @@ test_cases:
     LEAF_TP_FR: 0
   response: '76304620E2500'
 - expected_values:
+    LEAF_TP_FR: 298.19827
+  response: 76304620E25AD
+- expected_values:
+    LEAF_TP_FR: 299.92196
+  response: 76304620E25AE
+- expected_values:
+    LEAF_TP_FR: 303.36933
+  response: 76304620E25B0
+- expected_values:
+    LEAF_TP_FR: 306.81671
+  response: 76304620E25B2
+- expected_values:
     LEAF_TP_FR: 315.43516
   response: 76304620E25B7

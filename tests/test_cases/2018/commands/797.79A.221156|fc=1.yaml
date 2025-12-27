@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     LEAF_GEAR: REVERSE
   response: 79A0462115602
+- expected_values:
+    LEAF_GEAR: DRIVE
+  response: 79A0462115604
