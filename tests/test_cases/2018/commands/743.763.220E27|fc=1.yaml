@@ -1,0 +1,8 @@
+command_id: 743.763.220E27|fc=1
+test_cases:
+- expected_values:
+    LEAF_TP_RR: 0
+  response: '76304620E2700'
+- expected_values:
+    LEAF_TP_RR: 311.98778
+  response: 76304620E27B5
