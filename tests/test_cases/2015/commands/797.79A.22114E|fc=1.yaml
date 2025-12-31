@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LEAF_CHARGE_MODE: NOT_CHARGING
   response: 79A0462114E00
+- expected_values:
+    LEAF_CHARGE_MODE: CHARGING_L3
+  response: 79A0462114E03
