@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LEAF_CHARGE_PLUG: UNPLUGGED
   response: 79A0462123400
+- expected_values:
+    LEAF_CHARGE_PLUG: PLUGGED
+  response: 79A0462123402
