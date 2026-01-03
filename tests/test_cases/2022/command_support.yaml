@@ -29,7 +29,6 @@ supported_commands_by_ecu:
   - 797.79A.221304|fc=1:LEAF_IGN
   - 797.79A.221318|fc=1:LEAF_ECO_MODE
   - 797.79A.22131A|fc=1:LEAF_EPEDAL_MODE
-unsupported_commands_by_ecu:
   "79B":
   - 79B.7BB.2101|fc=1:LEAF_HVBAT_CAP,LEAF_HVBAT_SOC,LEAF_HVBAT_VOLT
   - 79B.7BB.2161|fc=1:LEAF_HVBAT_SOH
