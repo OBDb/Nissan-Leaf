@@ -1,0 +1,32 @@
+command_id: 797.79A.221151|fc=1
+test_cases:
+- expected_values:
+    LEAF_AC_PWR: 0
+  response: 79A0462115100
+- expected_values:
+    LEAF_AC_PWR: 750
+  response: 79A0462115103
+- expected_values:
+    LEAF_AC_PWR: 1000
+  response: 79A0462115104
+- expected_values:
+    LEAF_AC_PWR: 1250
+  response: 79A0462115105
+- expected_values:
+    LEAF_AC_PWR: 1750
+  response: 79A0462115107
+- expected_values:
+    LEAF_AC_PWR: 2000
+  response: 79A0462115108
+- expected_values:
+    LEAF_AC_PWR: 2250
+  response: 79A0462115109
+- expected_values:
+    LEAF_AC_PWR: 2750
+  response: 79A046211510B
+- expected_values:
+    LEAF_AC_PWR: 3250
+  response: 79A046211510D
+- expected_values:
+    LEAF_AC_PWR: 4000
+  response: 79A0462115110
