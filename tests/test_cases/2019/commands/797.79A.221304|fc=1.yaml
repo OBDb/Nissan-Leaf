@@ -1,0 +1,8 @@
+command_id: 797.79A.221304|fc=1
+test_cases:
+- expected_values:
+    LEAF_IGN: 0
+  response: 79A0562130400FE
+- expected_values:
+    LEAF_IGN: 1
+  response: 79A0562130480FE

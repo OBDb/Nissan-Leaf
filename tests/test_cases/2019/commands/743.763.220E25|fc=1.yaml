@@ -1,0 +1,17 @@
+command_id: 743.763.220E25|fc=1
+test_cases:
+- expected_values:
+    LEAF_TP_FR: 0
+  response: '76304620E2500'
+- expected_values:
+    LEAF_TP_FR: 236.14545
+  response: '76304620E2589'
+- expected_values:
+    LEAF_TP_FR: 239.59283
+  response: 76304620E258B
+- expected_values:
+    LEAF_TP_FR: 241.31652
+  response: 76304620E258C
+- expected_values:
+    LEAF_TP_FR: 246.48758
+  response: 76304620E258F

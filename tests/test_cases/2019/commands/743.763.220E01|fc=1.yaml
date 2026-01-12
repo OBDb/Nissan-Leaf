@@ -1,0 +1,20 @@
+command_id: 743.763.220E01|fc=1
+test_cases:
+- expected_values:
+    LEAF_ODO: 62318
+  response: 76306620E0100F36E
+- expected_values:
+    LEAF_ODO: 62319
+  response: 76306620E0100F36F
+- expected_values:
+    LEAF_ODO: 62320
+  response: 76306620E0100F370
+- expected_values:
+    LEAF_ODO: 62321
+  response: 76306620E0100F371
+- expected_values:
+    LEAF_ODO: 62402
+  response: 76306620E0100F3C2
+- expected_values:
+    LEAF_ODO: 62404
+  response: 76306620E0100F3C4
