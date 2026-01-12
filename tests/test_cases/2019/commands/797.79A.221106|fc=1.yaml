@@ -1,0 +1,23 @@
+command_id: 797.79A.221106|fc=1
+test_cases:
+- expected_values:
+    LEAF_AC_ON: 0
+  response: 79A056211060033
+- expected_values:
+    LEAF_AC_ON: 0
+  response: 79A0562110600DA
+- expected_values:
+    LEAF_AC_ON: 0
+  response: 79A0562110600DB
+- expected_values:
+    LEAF_AC_ON: 0
+  response: 79A0562110600DC
+- expected_values:
+    LEAF_AC_ON: 0
+  response: 79A0562110600DD
+- expected_values:
+    LEAF_AC_ON: 0
+  response: 79A0562110600DE
+- expected_values:
+    LEAF_AC_ON: 1
+  response: 79A0562110601F4
