@@ -26,6 +26,11 @@ test_cases:
     7BB100C616114871CDB
     7BB21FF1CC81CDA03FF
 - expected_values:
+    LEAF_HVBAT_SOH: 73.88
+  response: |-
+    7BB100C6161148A1CDC
+    7BB21FF1CC81CDC03FF
+- expected_values:
     LEAF_HVBAT_SOH: 73.89
   response: |-
     7BB100C6161148D1CDD
