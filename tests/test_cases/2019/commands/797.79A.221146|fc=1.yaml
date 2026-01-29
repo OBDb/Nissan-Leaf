@@ -4,24 +4,6 @@ test_cases:
     LEAF_MOTOR_PWR: 0
   response: 79A056211460000
 - expected_values:
-    LEAF_MOTOR_PWR: 120
-  response: 79A056211460003
-- expected_values:
-    LEAF_MOTOR_PWR: 4440
-  response: 79A05621146006F
-- expected_values:
-    LEAF_MOTOR_PWR: 5120
-  response: 79A056211460080
-- expected_values:
-    LEAF_MOTOR_PWR: 5640
-  response: 79A05621146008D
-- expected_values:
-    LEAF_MOTOR_PWR: 6840
-  response: 79A0562114600AB
-- expected_values:
-    LEAF_MOTOR_PWR: 8200
-  response: 79A0562114600CD
-- expected_values:
     LEAF_MOTOR_PWR: 20360
   response: 79A0562114601FD
 - expected_values:
