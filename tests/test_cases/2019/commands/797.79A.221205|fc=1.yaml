@@ -1,6 +1,12 @@
 command_id: 797.79A.221205|fc=1
 test_cases:
 - expected_values:
+    LEAF_L1L2CHRG_CNT: 2245
+  response: 79A0562120508C5
+- expected_values:
+    LEAF_L1L2CHRG_CNT: 2246
+  response: 79A0562120508C6
+- expected_values:
     LEAF_L1L2CHRG_CNT: 3401
   response: 79A056212050D49
 - expected_values:

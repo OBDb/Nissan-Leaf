@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     LEAF_12V_CURR: -2.96484
   response: 79A05621183FD09
+- expected_values:
+    LEAF_12V_CURR: -0.61719
+  response: 79A05621183FF62

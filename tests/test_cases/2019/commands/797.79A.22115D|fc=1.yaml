@@ -1,6 +1,12 @@
 command_id: 797.79A.22115D|fc=1
 test_cases:
 - expected_values:
+    LEAF_AAT: 13.1
+  response: 79A0462115D3C
+- expected_values:
+    LEAF_AAT: 14
+  response: 79A0462115D3D
+- expected_values:
     LEAF_AAT: 36.5
   response: 79A0462115D56
 - expected_values:

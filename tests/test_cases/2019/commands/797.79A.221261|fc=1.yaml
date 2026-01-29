@@ -4,5 +4,5 @@ test_cases:
     LEAF_AC_PWR_EST: 0
   response: 79A0462126100
 - expected_values:
-    LEAF_AC_PWR_EST: 1350
-  response: 79A046212611B
+    LEAF_AC_PWR_EST: 2100
+  response: 79A046212612A
