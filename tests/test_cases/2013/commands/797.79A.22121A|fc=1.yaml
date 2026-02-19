@@ -1,0 +1,5 @@
+command_id: 797.79A.22121A|fc=1
+test_cases:
+- expected_values:
+    LEAF_VSS: 0
+  response: 79A0562121A0000
