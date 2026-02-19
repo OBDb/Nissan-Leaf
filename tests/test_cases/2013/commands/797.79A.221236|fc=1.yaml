@@ -1,0 +1,8 @@
+command_id: 797.79A.221236|fc=1
+test_cases:
+- expected_values:
+    LEAF_CHRG_PWR: 1600
+  response: 79A056212360010
+- expected_values:
+    LEAF_CHRG_PWR: 1700
+  response: 79A056212360011

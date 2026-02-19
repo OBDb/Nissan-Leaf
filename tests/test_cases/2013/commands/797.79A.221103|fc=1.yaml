@@ -1,0 +1,5 @@
+command_id: 797.79A.221103|fc=1
+test_cases:
+- expected_values:
+    LEAF_VPWR: 13.04
+  response: 79A04621103A3
