@@ -1,0 +1,5 @@
+command_id: 797.79A.221203|fc=1
+test_cases:
+- expected_values:
+    LEAF_QCKCHRG_CNT: 226
+  response: 79A0562120300E2
