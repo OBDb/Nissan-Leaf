@@ -4,5 +4,8 @@ test_cases:
     LEAF_CHARGE_PLUG: UNPLUGGED
   response: 79A0462123400
 - expected_values:
+    LEAF_CHARGE_PLUG: PLUGGED_PARTIAL
+  response: 79A0462123401
+- expected_values:
     LEAF_CHARGE_PLUG: PLUGGED
   response: 79A0462123402
