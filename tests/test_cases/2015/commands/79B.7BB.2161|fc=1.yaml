@@ -11,40 +11,20 @@ test_cases:
     7BB100C6161141B1CA2
     7BB21FF1CBE1CA103FF
 - expected_values:
+    LEAF_HVBAT_SOH: 73.32
+  response: |-
+    7BB100C616114221CA4
+    7BB21FF1CB51CA403FF
+- expected_values:
     LEAF_HVBAT_SOH: 73.74
   response: |-
     7BB100C6161146E1CCE
     7BB21FF1CC81CCD03FF
 - expected_values:
-    LEAF_HVBAT_SOH: 73.74
-  response: |-
-    7BB100C616114711CCE
-    7BB21FF1CC81CCE03FF
-- expected_values:
     LEAF_HVBAT_SOH: 73.85
   response: |-
     7BB100C616114851CD9
     7BB21FF1CC81CD903FF
-- expected_values:
-    LEAF_HVBAT_SOH: 73.87
-  response: |-
-    7BB100C616114851CDB
-    7BB21FF1CC81CD903FF
-- expected_values:
-    LEAF_HVBAT_SOH: 73.87
-  response: |-
-    7BB100C616114871CDB
-    7BB21FF1CC81CDA03FF
-- expected_values:
-    LEAF_HVBAT_SOH: 73.88
-  response: |-
-    7BB100C6161148A1CDC
-    7BB21FF1CC81CDC03FF
-- expected_values:
-    LEAF_HVBAT_SOH: 73.89
-  response: |-
-    7BB100C6161148D1CDD
-    7BB21FF1CC81CDD03FF
 - expected_values:
     LEAF_HVBAT_SOH: 73.91
   response: |-
