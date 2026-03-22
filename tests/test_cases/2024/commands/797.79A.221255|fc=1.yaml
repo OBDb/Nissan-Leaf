@@ -1,0 +1,5 @@
+command_id: 797.79A.221255|fc=1
+test_cases:
+- expected_values:
+    LEAF_RPM: 0
+  response: 79A056212550000
