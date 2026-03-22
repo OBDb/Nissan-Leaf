@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     LEAF_HTR_PWR: 0
   response: 79A0462126200
+- expected_values:
+    LEAF_HTR_PWR: 250
+  response: 79A0462126201
+- expected_values:
+    LEAF_HTR_PWR: 2250
+  response: 79A0462126209
