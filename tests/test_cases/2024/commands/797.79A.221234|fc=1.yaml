@@ -1,0 +1,5 @@
+command_id: 797.79A.221234|fc=1
+test_cases:
+- expected_values:
+    LEAF_CHARGE_PLUG: UNPLUGGED
+  response: 79A0462123400
