@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LEAF_TP_RL: 0
   response: '76304620E2800'
+- expected_values:
+    LEAF_TP_RL: 279.23768
+  response: 76304620E28A2
