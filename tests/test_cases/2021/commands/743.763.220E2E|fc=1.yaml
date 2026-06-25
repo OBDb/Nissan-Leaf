@@ -1,0 +1,23 @@
+command_id: 743.763.220E2E|fc=1
+test_cases:
+- expected_values:
+    LEAF_RANGE: 0
+  response: 76305620E2E0000
+- expected_values:
+    LEAF_RANGE: 240
+  response: 76305620E2E00F0
+- expected_values:
+    LEAF_RANGE: 241
+  response: 76305620E2E00F1
+- expected_values:
+    LEAF_RANGE: 242
+  response: 76305620E2E00F2
+- expected_values:
+    LEAF_RANGE: 243
+  response: 76305620E2E00F3
+- expected_values:
+    LEAF_RANGE: 244
+  response: 76305620E2E00F4
+- expected_values:
+    LEAF_RANGE: 245
+  response: 76305620E2E00F5
