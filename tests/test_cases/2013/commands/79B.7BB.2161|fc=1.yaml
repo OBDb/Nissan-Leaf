@@ -5,3 +5,8 @@ test_cases:
   response: |-
     7BB100C61610E911BA0
     7BB21FF1A861BA003FF
+- expected_values:
+    LEAF_HVBAT_SOH: 80.92
+  response: |-
+    7BB100C61611D471F9C
+    7BB21FF1F6D1F9703FF

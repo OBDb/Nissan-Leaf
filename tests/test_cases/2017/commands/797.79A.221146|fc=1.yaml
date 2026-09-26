@@ -1,0 +1,29 @@
+command_id: 797.79A.221146|fc=1
+test_cases:
+- expected_values:
+    LEAF_MOTOR_PWR: 0
+  response: 79A056211460000
+- expected_values:
+    LEAF_MOTOR_PWR: 40
+  response: 79A056211460001
+- expected_values:
+    LEAF_MOTOR_PWR: 3480
+  response: 79A056211460057
+- expected_values:
+    LEAF_MOTOR_PWR: 4640
+  response: 79A056211460074
+- expected_values:
+    LEAF_MOTOR_PWR: 4720
+  response: 79A056211460076
+- expected_values:
+    LEAF_MOTOR_PWR: 7000
+  response: 79A0562114600AF
+- expected_values:
+    LEAF_MOTOR_PWR: 8200
+  response: 79A0562114600CD
+- expected_values:
+    LEAF_MOTOR_PWR: 8680
+  response: 79A0562114600D9
+- expected_values:
+    LEAF_MOTOR_PWR: 16400
+  response: 79A05621146019A
