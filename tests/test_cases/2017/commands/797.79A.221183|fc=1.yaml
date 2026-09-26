@@ -1,0 +1,26 @@
+command_id: 797.79A.221183|fc=1
+test_cases:
+- expected_values:
+    LEAF_12V_CURR: 0
+  response: 79A056211830000
+- expected_values:
+    LEAF_12V_CURR: 0.19141
+  response: 79A056211830031
+- expected_values:
+    LEAF_12V_CURR: 0.23047
+  response: 79A05621183003B
+- expected_values:
+    LEAF_12V_CURR: 0.30469
+  response: 79A05621183004E
+- expected_values:
+    LEAF_12V_CURR: 0.4375
+  response: 79A056211830070
+- expected_values:
+    LEAF_12V_CURR: 0.54688
+  response: 79A05621183008C
+- expected_values:
+    LEAF_12V_CURR: 0.57812
+  response: 79A056211830094
+- expected_values:
+    LEAF_12V_CURR: 0.67578
+  response: 79A0562118300AD
