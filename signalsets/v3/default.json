@@ -32,9 +32,13 @@
   "signals": [
     {"id": "LEAF_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "unit": "kilopascal" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
+{ "hdr": "743", "rax": "763", "fcm1": true, "dbg": true, "cmd": {"22": "0E2D"}, "freq": 30, "filter": { "from": 2018 },
+  "signals": [
+    {"id": "LEAF_SOC_DASH", "path": "Battery", "fmt": {"bix": 112, "len": 8, "max": 100, "unit": "percent" }, "name": "State of charge, as the dash shows it"}
+  ]},
 { "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E2E"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "years": [2020, 2023], "from": 2025 },
   "signals": [
-    {"id": "LEAF_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "unit": "kilometers" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
+    {"id": "LEAF_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 2047, "nullmin": 0, "nullmax": 2047, "unit": "kilometers" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
   ]},
 { "hdr": "744", "rax": "764", "dbg": true, "cmd": {"21": "10"}, "freq": 5,
   "signals": [
