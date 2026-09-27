@@ -34,7 +34,7 @@
   ]},
 { "hdr": "743", "rax": "763", "fcm1": true, "dbg": true, "cmd": {"22": "0E2D"}, "freq": 30, "filter": { "from": 2018 },
   "signals": [
-    {"id": "LEAF_SOC_DASH", "path": "Battery", "fmt": {"bix": 112, "len": 8, "max": 100, "unit": "percent" }, "name": "State of charge, as the dash shows it"}
+    {"id": "LEAF_SOC_DASH", "path": "Battery", "fmt": {"bix": 112, "len": 8, "max": 100, "unit": "percent" }, "name": "State of charge, as the dash shows it", "suggestedMetric": "stateOfCharge"}
   ]},
 { "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E2E"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "years": [2020, 2023], "from": 2025 },
   "signals": [
@@ -291,7 +291,7 @@
     {"id": "LEAF_HVBAT_CELL_94_V", "path": "Battery.Cells", "fmt": {"bix": 1488, "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "HV battery cell 94 voltage"},
     {"id": "LEAF_HVBAT_CELL_95_V", "path": "Battery.Cells", "fmt": {"bix": 1504, "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "HV battery cell 95 voltage"},
     {"id": "LEAF_HVBAT_CELL_96_V", "path": "Battery.Cells", "fmt": {"bix": 1520, "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "HV battery cell 96 voltage"},
-    {"id": "LEAF_HVBAT_PACK_V",    "path": "Battery",       "fmt": {"bix": 1536, "len": 16, "max": 655.35, "div": 100,  "unit": "volts" }, "name": "HV battery pack voltage"},
+    {"id": "LEAF_HVBAT_PACK_V",    "path": "Battery",       "fmt": {"bix": 1536, "len": 16, "max": 655.35, "div": 100,  "unit": "volts" }, "name": "HV battery pack voltage",    "suggestedMetric": "tractionBatteryVoltage"},
     {"id": "LEAF_HVBAT_BUS_V",     "path": "Battery",       "fmt": {"bix": 1552, "len": 16, "max": 655.35, "div": 100,  "unit": "volts" }, "name": "HV bus voltage"}
   ]},
 { "hdr": "79B", "rax": "7BB", "dbg": true, "cmd": {"21": "04"}, "freq": 30,
