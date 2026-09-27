@@ -1,10 +1,10 @@
 { "diagnosticLevel": "C0",
   "commands": [
-{ "hdr": "740", "rax": "760", "dbg": true, "cmd": {"22": "1115"}, "freq": 0.25,
+{ "hdr": "740", "rax": "760", "cmd": {"22": "1115"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "LEAF_APP", "path": "Control", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
-{ "hdr": "740", "rax": "760", "dbg": true, "cmd": {"22": "1209"}, "freq": 0.25,
+{ "hdr": "740", "rax": "760", "cmd": {"22": "1209"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "LEAF_BRAKE_MC_P", "path": "Control", "fmt": { "len": 16, "max": 42666.015, "div": 1.536, "unit": "unknown" }, "name": "Brake master cylinder pressure"}
   ]},
@@ -32,7 +32,7 @@
   "signals": [
     {"id": "LEAF_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "unit": "kilopascal" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "dbg": true, "cmd": {"22": "0E2D"}, "freq": 30, "filter": { "from": 2018 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E2D"}, "freq": 30, "filter": { "from": 2018 }, "dbgfilter": { "from": 2019 },
   "signals": [
     {"id": "LEAF_SOC_DASH", "path": "Battery", "fmt": {"bix": 112, "len": 8, "max": 100, "unit": "percent" }, "name": "State of charge, as the dash shows it", "suggestedMetric": "stateOfCharge"}
   ]},
@@ -51,7 +51,7 @@
     {"id": "LEAF_HVAC_BLOWER_V", "path": "Climate", "fmt": {"bix": 89,  "len": 7,  "max": 127,                           "unit": "volts"   }, "name": "Blower voltage"},
     {"id": "LEAF_AC_COMP_RPM",   "path": "Climate", "fmt": {"bix": 168, "len": 16, "max": 65535,                         "unit": "rpm"     }, "name": "Air conditioning compressor speed"}
   ]},
-{ "hdr": "797", "rax": "79A", "dbg": true, "cmd": {"22": "1102"}, "freq": 0.25,
+{ "hdr": "797", "rax": "79A", "cmd": {"22": "1102"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "LEAF_VSS_VCM", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed, vehicle control module"}
   ]},
@@ -70,7 +70,7 @@
         }}
     }
   ]},
-{ "hdr": "797", "rax": "79A", "dbg": true, "cmd": {"22": "1128"}, "freq": 0.25,
+{ "hdr": "797", "rax": "79A", "cmd": {"22": "1128"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "LEAF_MOTOR_TQ_NOMINAL", "path": "Engine", "fmt": { "len": 16, "max": 511.984, "min": -512, "div": 64, "sign": true, "unit": "newtonMeters" }, "name": "Motor torque, nominal"}
   ]},
@@ -140,11 +140,11 @@
   "signals": [
     {"id": "LEAF_CHRG_PWR", "path": "Battery", "fmt": { "len": 16, "max": 6553500, "mul": 100, "unit": "watts" }, "name": "Charging power", "description": "Power entering the high voltage battery while charging."}
   ]},
-{ "hdr": "797", "rax": "79A", "dbg": true, "cmd": {"22": "1248"}, "freq": 1,
+{ "hdr": "797", "rax": "79A", "cmd": {"22": "1248"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "LEAF_HVBAT_I", "path": "Battery", "fmt": { "len": 16, "max": 16383.5, "min": -16384, "div": 2, "sign": true, "unit": "amps" }, "name": "HV battery current", "suggestedMetric": "tractionBatteryCurrent"}
   ]},
-{ "hdr": "797", "rax": "79A", "dbg": true, "cmd": {"22": "1254"}, "freq": 0.25,
+{ "hdr": "797", "rax": "79A", "cmd": {"22": "1254"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "LEAF_MOTOR_TQ", "path": "Engine", "fmt": { "len": 16, "max": 511.984, "min": -512, "div": 64, "sign": true, "unit": "newtonMeters" }, "name": "Motor torque, actual"}
   ]},
