@@ -7,5 +7,5 @@ test_cases:
     LEAF_MOTOR_TQ: 15.5
   response: 79A0562125403E0
 - expected_values:
-    LEAF_MOTOR_TQ: -14
-  response: 79A05621254FC80
+    LEAF_MOTOR_TQ: -2.5
+  response: 79A05621254FF60
