@@ -1,0 +1,14 @@
+command_id: 797.79A.22115D|fc=1,f=2013-
+test_cases:
+- expected_values:
+    LEAF_AAT: 52.7
+  response: 79A0462115D68
+- expected_values:
+    LEAF_AAT: 64.4
+  response: 79A0462115D75
+- expected_values:
+    LEAF_AAT: 65.3
+  response: 79A0462115D76
+- expected_values:
+    LEAF_AAT: 66.2
+  response: 79A0462115D77
