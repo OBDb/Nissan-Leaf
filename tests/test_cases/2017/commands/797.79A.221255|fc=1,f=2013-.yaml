@@ -1,0 +1,29 @@
+command_id: 797.79A.221255|fc=1,f=2013-
+test_cases:
+- expected_values:
+    LEAF_RPM: 0
+  response: 79A056212550000
+- expected_values:
+    LEAF_RPM: 1531
+  response: 79A0562125505FB
+- expected_values:
+    LEAF_RPM: 1688
+  response: 79A056212550698
+- expected_values:
+    LEAF_RPM: 1875
+  response: 79A056212550753
+- expected_values:
+    LEAF_RPM: 2135
+  response: 79A056212550857
+- expected_values:
+    LEAF_RPM: 2779
+  response: 79A056212550ADB
+- expected_values:
+    LEAF_RPM: 2814
+  response: 79A056212550AFE
+- expected_values:
+    LEAF_RPM: 2878
+  response: 79A056212550B3E
+- expected_values:
+    LEAF_RPM: 3321
+  response: 79A056212550CF9
