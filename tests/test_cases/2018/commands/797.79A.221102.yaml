@@ -1,0 +1,8 @@
+command_id: 797.79A.221102
+test_cases:
+- expected_values:
+    LEAF_VSS_VCM: 0
+  response: 79A0462110200
+- expected_values:
+    LEAF_VSS_VCM: 140
+  response: 79A046211028C
