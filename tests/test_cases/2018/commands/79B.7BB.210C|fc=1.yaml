@@ -1,0 +1,5 @@
+command_id: 79B.7BB.210C|fc=1
+test_cases:
+- expected_values:
+    LEAF_BAT_CONTROLLER_DIST: 4500
+  response: 7BB07610C00000C6F96
