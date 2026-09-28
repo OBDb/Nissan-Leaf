@@ -1,8 +1,8 @@
 command_id: 743.763.220E2E|fc=1,f=2018-
 test_cases:
 - expected_values:
-    LEAF_RANGE: 36
-  response: 76305620E2E0024
+    LEAF_RANGE: 8
+  response: 76305620E2E0008
 - expected_values:
     LEAF_RANGE: 130
   response: 76305620E2E0082
