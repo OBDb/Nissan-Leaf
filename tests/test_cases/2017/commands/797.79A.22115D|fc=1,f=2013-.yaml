@@ -7,6 +7,12 @@ test_cases:
     LEAF_AAT: 60.8
   response: 79A0462115D71
 - expected_values:
+    LEAF_AAT: 61.7
+  response: 79A0462115D72
+- expected_values:
+    LEAF_AAT: 62.6
+  response: 79A0462115D73
+- expected_values:
     LEAF_AAT: 64.4
   response: 79A0462115D75
 - expected_values:
