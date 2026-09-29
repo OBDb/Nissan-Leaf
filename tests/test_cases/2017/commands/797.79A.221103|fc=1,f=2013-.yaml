@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     LEAF_VPWR: 13.04
   response: 79A04621103A3
+- expected_values:
+    LEAF_VPWR: 14.24
+  response: 79A04621103B2
+- expected_values:
+    LEAF_VPWR: 14.32
+  response: 79A04621103B3
