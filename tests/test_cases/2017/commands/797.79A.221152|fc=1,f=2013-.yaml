@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     LEAF_AUX_PWR: 300
   response: 79A0462115203
+- expected_values:
+    LEAF_AUX_PWR: 400
+  response: 79A0462115204
