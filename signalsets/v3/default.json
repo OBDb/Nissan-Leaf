@@ -10,7 +10,7 @@
   ]},
 { "hdr": "743", "rax": "763", "fcm1": true, "dbg": true, "cmd": {"21": "01"}, "freq": 30,
   "signals": [
-    {"id": "LEAF_ODO_METER", "path": "Trips", "fmt": {"bix": 64, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Odometer, meter group 1"}
+    {"id": "LEAF_ODO_METER", "path": "Trips", "fmt": {"bix": 56, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, meter group 1"}
   ]},
 { "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E01"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "years": [2020, 2023], "from": 2025 },
   "signals": [
