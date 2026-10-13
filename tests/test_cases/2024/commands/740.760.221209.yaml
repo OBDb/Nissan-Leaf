@@ -1,0 +1,11 @@
+command_id: 740.760.221209
+test_cases:
+- expected_values:
+    LEAF_BRAKE_MC_P: 0
+  response: '760056212090000'
+- expected_values:
+    LEAF_BRAKE_MC_P: 15.625
+  response: '760056212090018'
+- expected_values:
+    LEAF_BRAKE_MC_P: 16.92708
+  response: 76005621209001A

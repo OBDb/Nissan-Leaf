@@ -1,0 +1,11 @@
+command_id: 797.79A.221254
+test_cases:
+- expected_values:
+    LEAF_MOTOR_TQ: 0
+  response: 79A056212540000
+- expected_values:
+    LEAF_MOTOR_TQ: 23.5
+  response: 79A0562125405E0
+- expected_values:
+    LEAF_MOTOR_TQ: -5.5
+  response: 79A05621254FEA0

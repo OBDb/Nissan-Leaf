@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     LEAF_ODO: 19137
   response: 76306620E01004AC1
+- expected_values:
+    LEAF_ODO: 23929
+  response: 76306620E01005D79
