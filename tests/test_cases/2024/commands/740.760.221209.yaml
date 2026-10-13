@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     LEAF_BRAKE_MC_P: 16.92708
   response: 76005621209001A
+- expected_values:
+    LEAF_BRAKE_MC_P: 69.66146
+  response: 76005621209006B
