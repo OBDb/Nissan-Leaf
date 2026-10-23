@@ -1,0 +1,29 @@
+command_id: 797.79A.221248
+test_cases:
+- expected_values:
+    LEAF_HVBAT_I: 10.5
+  response: 79A056212480015
+- expected_values:
+    LEAF_HVBAT_I: 58.5
+  response: 79A056212480075
+- expected_values:
+    LEAF_HVBAT_I: -27
+  response: 79A05621248FFCA
+- expected_values:
+    LEAF_HVBAT_I: -16.5
+  response: 79A05621248FFDF
+- expected_values:
+    LEAF_HVBAT_I: -7.5
+  response: 79A05621248FFF1
+- expected_values:
+    LEAF_HVBAT_I: -7
+  response: 79A05621248FFF2
+- expected_values:
+    LEAF_HVBAT_I: -6
+  response: 79A05621248FFF4
+- expected_values:
+    LEAF_HVBAT_I: -5
+  response: 79A05621248FFF6
+- expected_values:
+    LEAF_HVBAT_I: -3.5
+  response: 79A05621248FFF9
