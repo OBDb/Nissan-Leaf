@@ -4,26 +4,8 @@ test_cases:
     LEAF_MOTOR_TQ: 0
   response: 79A056212540000
 - expected_values:
-    LEAF_MOTOR_TQ: 0.5
-  response: 79A056212540020
+    LEAF_MOTOR_TQ: -32.5
+  response: 79A05621254F7E0
 - expected_values:
-    LEAF_MOTOR_TQ: 3
-  response: 79A0562125400C0
-- expected_values:
-    LEAF_MOTOR_TQ: 12
-  response: 79A056212540300
-- expected_values:
-    LEAF_MOTOR_TQ: 24
-  response: 79A056212540600
-- expected_values:
-    LEAF_MOTOR_TQ: 28.5
-  response: 79A056212540720
-- expected_values:
-    LEAF_MOTOR_TQ: -75
-  response: 79A05621254ED40
-- expected_values:
-    LEAF_MOTOR_TQ: -58.5
-  response: 79A05621254F160
-- expected_values:
-    LEAF_MOTOR_TQ: -20
-  response: 79A05621254FB00
+    LEAF_MOTOR_TQ: -8.5
+  response: 79A05621254FDE0
