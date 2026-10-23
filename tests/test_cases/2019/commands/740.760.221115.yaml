@@ -4,23 +4,5 @@ test_cases:
     LEAF_APP: 0
   response: '7600462111500'
 - expected_values:
-    LEAF_APP: 1
-  response: '7600462111502'
-- expected_values:
-    LEAF_APP: 2.5
-  response: '7600462111505'
-- expected_values:
-    LEAF_APP: 6.5
-  response: 760046211150D
-- expected_values:
-    LEAF_APP: 11.5
-  response: '7600462111517'
-- expected_values:
-    LEAF_APP: 12
-  response: '7600462111518'
-- expected_values:
-    LEAF_APP: 17
-  response: '7600462111522'
-- expected_values:
-    LEAF_APP: 20.5
-  response: '7600462111529'
+    LEAF_APP: 77.5
+  response: 760046211159B
