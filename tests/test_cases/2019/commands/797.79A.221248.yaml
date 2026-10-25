@@ -4,8 +4,8 @@ test_cases:
     LEAF_HVBAT_I: 5.5
   response: 79A05621248000B
 - expected_values:
-    LEAF_HVBAT_I: -79
-  response: 79A05621248FF62
+    LEAF_HVBAT_I: -107.5
+  response: 79A05621248FF29
 - expected_values:
-    LEAF_HVBAT_I: -3.5
-  response: 79A05621248FFF9
+    LEAF_HVBAT_I: -1
+  response: 79A05621248FFFE

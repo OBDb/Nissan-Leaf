@@ -18,3 +18,12 @@ test_cases:
 - expected_values:
     LEAF_TP_RL: 249.93496
   response: '76304620E2891'
+- expected_values:
+    LEAF_TP_RL: 275.7903
+  response: 76304620E28A0
+- expected_values:
+    LEAF_TP_RL: 280.96137
+  response: 76304620E28A3
+- expected_values:
+    LEAF_TP_RL: 284.40875
+  response: 76304620E28A5
