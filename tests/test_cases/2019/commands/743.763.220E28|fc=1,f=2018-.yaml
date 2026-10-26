@@ -4,26 +4,5 @@ test_cases:
     LEAF_TP_RL: 0
   response: '76304620E2800'
 - expected_values:
-    LEAF_TP_RL: 237.86914
-  response: 76304620E288A
-- expected_values:
-    LEAF_TP_RL: 241.31652
-  response: 76304620E288C
-- expected_values:
-    LEAF_TP_RL: 243.04021
-  response: 76304620E288D
-- expected_values:
-    LEAF_TP_RL: 246.48758
-  response: 76304620E288F
-- expected_values:
-    LEAF_TP_RL: 249.93496
-  response: '76304620E2891'
-- expected_values:
-    LEAF_TP_RL: 275.7903
-  response: 76304620E28A0
-- expected_values:
-    LEAF_TP_RL: 280.96137
-  response: 76304620E28A3
-- expected_values:
-    LEAF_TP_RL: 284.40875
-  response: 76304620E28A5
+    LEAF_TP_RL: 287.85613
+  response: 76304620E28A7

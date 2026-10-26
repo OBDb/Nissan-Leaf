@@ -10,5 +10,8 @@ test_cases:
     LEAF_ODO: 151479
   response: 76306620E01024FB7
 - expected_values:
-    LEAF_ODO: 151501
-  response: 76306620E01024FCD
+    LEAF_ODO: 151551
+  response: 76306620E01024FFF
+- expected_values:
+    LEAF_ODO: 151552
+  response: '76306620E01025000'
