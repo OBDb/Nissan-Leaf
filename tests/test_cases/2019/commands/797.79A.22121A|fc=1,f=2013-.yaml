@@ -7,5 +7,5 @@ test_cases:
     LEAF_VSS: 76.7
   response: 79A0562121A02FF
 - expected_values:
-    LEAF_VSS: 129.1
-  response: 79A0562121A050B
+    LEAF_VSS: 128.6
+  response: 79A0562121A0506
