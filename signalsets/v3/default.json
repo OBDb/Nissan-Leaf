@@ -1,10 +1,10 @@
 { "diagnosticLevel": "C0",
   "commands": [
-{ "hdr": "740", "rax": "760", "cmd": {"22": "1115"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "740", "rax": "760", "cmd": {"22": "1115"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_APP", "path": "Control", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
-{ "hdr": "740", "rax": "760", "cmd": {"22": "1209"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "740", "rax": "760", "cmd": {"22": "1209"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_BRAKE_MC_P", "path": "Control", "fmt": { "len": 16, "max": 42666.015, "div": 1.536, "unit": "unknown" }, "name": "Brake master cylinder pressure"}
   ]},
@@ -12,31 +12,31 @@
   "signals": [
     {"id": "LEAF_ODO_METER", "path": "Trips", "fmt": {"bix": 56, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, meter group 1"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E01"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "years": [2020, 2023], "from": 2025 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E01"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "years": [2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15, "filter": { "from": 2018 }, "dbgfilter": { "years": [2020, 2023], "from": 2025 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15, "filter": { "from": 2018 }, "dbgfilter": { "years": [2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E26"}, "freq": 15, "filter": { "from": 2018 }, "dbgfilter": { "years": [2020, 2023], "from": 2025 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E26"}, "freq": 15, "filter": { "from": 2018 }, "dbgfilter": { "years": [2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "unit": "kilopascal" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "filter": { "from": 2018 }, "dbgfilter": { "years": [2020, 2023], "from": 2025 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "filter": { "from": 2018 }, "dbgfilter": { "years": [2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "unit": "kilopascal" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15, "filter": { "from": 2018 }, "dbgfilter": { "years": [2020, 2023], "from": 2025 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15, "filter": { "from": 2018 }, "dbgfilter": { "years": [2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "unit": "kilopascal" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E2D"}, "freq": 30, "filter": { "from": 2018 }, "dbgfilter": { "years": [2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E2D"}, "freq": 30, "filter": { "from": 2018 }, "dbgfilter": { "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_SOC_DASH", "path": "Battery", "fmt": {"bix": 112, "len": 8, "max": 100, "unit": "percent" }, "name": "State of charge, as the dash shows it", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E2E"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "years": [2020, 2023], "from": 2025 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E2E"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "years": [2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 2047, "nullmin": 0, "nullmax": 2047, "unit": "kilometers" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
   ]},
@@ -51,34 +51,34 @@
     {"id": "LEAF_HVAC_BLOWER_V", "path": "Climate", "fmt": {"bix": 89,  "len": 7,  "max": 127,                           "unit": "volts"   }, "name": "Blower voltage"},
     {"id": "LEAF_AC_COMP_RPM",   "path": "Climate", "fmt": {"bix": 168, "len": 16, "max": 65535,                         "unit": "rpm"     }, "name": "Air conditioning compressor speed"}
   ]},
-{ "hdr": "797", "rax": "79A", "cmd": {"22": "1102"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "cmd": {"22": "1102"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_VSS_VCM", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed, vehicle control module"}
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1103"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1103"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_VPWR", "path": "Battery", "fmt": { "len": 8, "max": 30, "div": 12.5, "unit": "volts" }, "name": "12V battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1106"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1106"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_AC_ON", "path": "Climate", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "A/C state"}
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "110F"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "110F"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_HTR_REAR", "path": "Climate", "name": "Rear heater state", "fmt": {"len": 8, "map": {
           "162": { "description": "Heater is on", "value": "HEATER_ON" }
         }}
     }
   ]},
-{ "hdr": "797", "rax": "79A", "cmd": {"22": "1128"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "cmd": {"22": "1128"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_MOTOR_TQ_NOMINAL", "path": "Engine", "fmt": { "len": 16, "max": 511.984, "min": -512, "div": 64, "sign": true, "unit": "newtonMeters" }, "name": "Motor torque, nominal"}
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1146"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1146"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_MOTOR_PWR", "path": "Engine", "fmt": { "len": 16, "max": 2621400, "mul": 40, "unit": "watts" }, "name": "Motor power"}
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "114E"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "114E"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_CHARGE_MODE", "path": "Battery", "name": "Charging mode", "suggestedMetric": "isCharging", "fmt": {"len": 8, "map": {
           "0": { "description": "Not charging",           "value": "NOT_CHARGING" },
@@ -88,15 +88,15 @@
         }}
     }
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1151"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1151"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_AC_PWR", "path": "Battery.Draw", "fmt": { "len": 8, "max": 63750, "mul": 250, "unit": "watts" }, "name": "Power used by both the A/C and PTC heater."}
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1152"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1152"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_AUX_PWR", "path": "Battery.Draw", "fmt": { "len": 8, "max": 25500, "mul": 100, "unit": "watts" }, "name": "Power used by auxiliary equipment (lights, radio, navigation, rear defroster, etc...)."}
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1156"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1156"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_GEAR", "path": "Engine", "name": "Gear", "fmt": {"len": 8, "map": {
           "1": { "description": "Park",    "value": "PARK" },
@@ -107,27 +107,27 @@
         }}
     }
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "115D"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "115D"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_AAT", "path": "Climate", "fmt": { "len": 8, "max": 192.69, "min": -36.81, "mul": 0.9, "add": -40.9, "unit": "fahrenheit" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1183"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1183"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_12V_CURR", "path": "Battery", "fmt": { "len": 16, "max": 128, "min": -128, "div": 256, "sign": true, "unit": "amps" }, "name": "12V battery current"}
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1203"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1203"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_QCKCHRG_CNT", "path": "Battery.Statistics", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Quick charge count", "description": "Increments each time a quick charge occurs, even if only partially."}
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1205"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1205"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_L1L2CHRG_CNT", "path": "Battery.Statistics", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Quick charge count", "description": "Increments each time an L1/L2 charge occurs, even if only partially."}
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "121A"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "121A"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_VSS", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1234"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1234"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_CHARGE_PLUG", "path": "Battery", "name": "L1/L2 charge port plug state", "suggestedMetric": "pluggedIn", "fmt": {"len": 8, "map": {
           "0": { "description": "Not plugged in",       "value": "UNPLUGGED" },
@@ -136,35 +136,35 @@
         }}
     }
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1236"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1236"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_CHRG_PWR", "path": "Battery", "fmt": { "len": 16, "max": 6553500, "mul": 100, "unit": "watts" }, "name": "Charging power", "description": "Power entering the high voltage battery while charging."}
   ]},
-{ "hdr": "797", "rax": "79A", "cmd": {"22": "1248"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "cmd": {"22": "1248"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_HVBAT_I", "path": "Battery", "fmt": { "len": 16, "max": 16383.5, "min": -16384, "div": 2, "sign": true, "unit": "amps" }, "name": "HV battery current", "suggestedMetric": "tractionBatteryCurrent"}
   ]},
-{ "hdr": "797", "rax": "79A", "cmd": {"22": "1254"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "cmd": {"22": "1254"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_MOTOR_TQ", "path": "Engine", "fmt": { "len": 16, "max": 511.984, "min": -512, "div": 64, "sign": true, "unit": "newtonMeters" }, "name": "Motor torque, actual"}
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1255"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1255"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_RPM", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32767, "sign": true, "unit": "scalar" }, "name": "Engine RPM"}
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1261"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1261"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_AC_PWR_EST", "path": "Battery.Draw", "fmt": { "len": 8, "max": 12750, "mul": 50, "unit": "watts" }, "name": "Power used by air conditioning"}
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1262"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1262"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_HTR_PWR", "path": "Battery.Draw", "fmt": { "len": 8, "max": 63750, "mul": 250, "unit": "watts" }, "name": "Power used by cabin positive temperature coefficient (PTC) heaters."}
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1304"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1304"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_IGN", "path": "Engine", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Power switch"}
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1318"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1318"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_ECO_MODE", "path": "Climate", "name": "ECO mode state", "fmt": {"len": 8, "map": {
           "0":  { "description": "ECO is off", "value": "ECO_OFF" },
@@ -173,7 +173,7 @@
         }}
     }
   ]},
-{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "131A"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "131A"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_EPEDAL_MODE", "path": "Control", "name": "E-pedal mode", "fmt": {"len": 8, "map": {
           "0": { "description": "E-pedal mode is off", "value": "EPEDAL_OFF" },
@@ -187,7 +187,7 @@
     {"id": "LEAF_HVBAT_SOC_PRE18",  "path": "Battery", "fmt": {"bix": 232, "len": 24, "max": 100,  "div": 10000, "unit": "percent"     }, "name": "High voltage battery charge",   "suggestedMetric": "stateOfCharge"},
     {"id": "LEAF_HVBAT_CAP_PRE18",  "path": "Battery", "fmt": {"bix": 264, "len": 24, "max": 1000, "div": 10000, "unit": "ampereHours" }, "name": "High voltage battery capacity"}
   ]},
-{ "hdr": "79B", "rax": "7BB", "fcm1": true, "cmd": {"21": "01"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "years": [2020, 2023], "from": 2025 },
+{ "hdr": "79B", "rax": "7BB", "fcm1": true, "cmd": {"21": "01"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "years": [2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_HVBAT_VOLT", "path": "Battery", "fmt": {"bix": 144, "len": 16, "max": 655,  "div": 100,               "unit": "volts"       }, "name": "High voltage battery voltage",  "suggestedMetric": "tractionBatteryVoltage"},
     {"id": "LEAF_HVBAT_SOC",  "path": "Battery", "fmt": {"bix": 248, "len": 24, "max": 100,  "div": 8190,  "add": -17, "unit": "percent"     }, "name": "High voltage battery charge",   "suggestedMetric": "stateOfCharge"},
@@ -294,7 +294,7 @@
     {"id": "LEAF_HVBAT_PACK_V",    "path": "Battery",       "fmt": {"bix": 1536, "len": 16, "max": 655.35, "div": 100,  "unit": "volts" }, "name": "HV battery pack voltage",    "suggestedMetric": "tractionBatteryVoltage"},
     {"id": "LEAF_HVBAT_BUS_V",     "path": "Battery",       "fmt": {"bix": 1552, "len": 16, "max": 655.35, "div": 100,  "unit": "volts" }, "name": "HV bus voltage"}
   ]},
-{ "hdr": "79B", "rax": "7BB", "fcm1": true, "cmd": {"21": "03"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "79B", "rax": "7BB", "fcm1": true, "cmd": {"21": "03"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_MAX_CELL_V", "path": "Battery", "fmt": {"bix": 80, "len": 16, "max": 4.5, "div": 1000, "unit": "volts" }, "name": "Maximum cell voltage"},
     {"id": "LEAF_MIN_CELL_V", "path": "Battery", "fmt": {"bix": 96, "len": 16, "max": 4.5, "div": 1000, "unit": "volts" }, "name": "Minimum cell voltage"}
@@ -306,11 +306,11 @@
     {"id": "LEAF_HVBAT_PACK_4_T", "path": "Battery", "fmt": {"bix": 88, "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "HV battery pack 4 temperature"},
     {"id": "LEAF_HVBAT_PACK_5_T", "path": "Battery", "fmt": {"bix": 96, "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "HV battery pack 5 temperature"}
   ]},
-{ "hdr": "79B", "rax": "7BB", "fcm1": true, "cmd": {"21": "0C"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "79B", "rax": "7BB", "fcm1": true, "cmd": {"21": "0C"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_BAT_CONTROLLER_DIST", "path": "Trips", "fmt": {"bix": 8, "len": 32, "max": 4500, "unit": "scalar" }, "name": "Battery controller distance counter"}
   ]},
-{ "hdr": "79B", "rax": "7BB", "fcm1": true, "cmd": {"21": "61"}, "freq": 3600, "dbgfilter": { "to": 2011, "years": [2014, 2016, 2020, 2023], "from": 2025 },
+{ "hdr": "79B", "rax": "7BB", "fcm1": true, "cmd": {"21": "61"}, "freq": 3600, "dbgfilter": { "to": 2011, "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_HVBAT_SOH", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "High voltage battery health", "suggestedMetric": "stateOfHealth", "description": "When the battery is new, its health should be ~100%."}
   ]}
