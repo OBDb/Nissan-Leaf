@@ -1,6 +1,15 @@
 command_id: 79B.7BB.2103|fc=1
 test_cases:
 - expected_values:
+    LEAF_MAX_CELL_V: 4.166
+    LEAF_MIN_CELL_V: 4.154
+  response: |-
+    7BB101C6103FFFF0250
+    7BB2100E0000EB33E10
+    7BB2246103A00035600
+    7BB23000000008605FD
+    7BB240BFFFFFFFFFFFF
+- expected_values:
     LEAF_MAX_CELL_V: 3.71
     LEAF_MIN_CELL_V: 3.692
   response: |-

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LEAF_L1L2CHRG_CNT: 4772
   response: 79A0562120512A4
+- expected_values:
+    LEAF_L1L2CHRG_CNT: 4773
+  response: 79A0562120512A5
