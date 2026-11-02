@@ -1,6 +1,13 @@
 command_id: 743.763.220E2D|fc=1,f=2018-
 test_cases:
 - expected_values:
+    LEAF_SOC_DASH: 100
+  response: |-
+    7631016620E2D052402
+    763210A640A01000000
+    7632200000000640000
+    763230000FFFFFFFFFF
+- expected_values:
     LEAF_SOC_DASH: 48
   response: |-
     7631016620E2D052412
