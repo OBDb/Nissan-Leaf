@@ -4,5 +4,8 @@ test_cases:
     LEAF_MOTOR_TQ_NOMINAL: 0
   response: 79A056211280000
 - expected_values:
+    LEAF_MOTOR_TQ_NOMINAL: 57.82812
+  response: 79A056211280E75
+- expected_values:
     LEAF_MOTOR_TQ_NOMINAL: 89.79688
   response: 79A056211281673

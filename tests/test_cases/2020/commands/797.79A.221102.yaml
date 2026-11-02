@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LEAF_VSS_VCM: 0
   response: 79A0462110200
+- expected_values:
+    LEAF_VSS_VCM: 7
+  response: 79A0462110207
