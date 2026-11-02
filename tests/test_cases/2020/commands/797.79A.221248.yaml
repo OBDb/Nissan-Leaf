@@ -1,6 +1,9 @@
 command_id: 797.79A.221248
 test_cases:
 - expected_values:
+    LEAF_HVBAT_I: -12.5
+  response: 79A05621248FFE7
+- expected_values:
     LEAF_HVBAT_I: -5
   response: 79A05621248FFF6
 - expected_values:

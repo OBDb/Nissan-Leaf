@@ -1,6 +1,9 @@
 command_id: 797.79A.221183|fc=1,f=2013-
 test_cases:
 - expected_values:
+    LEAF_12V_CURR: -0.70703
+  response: 79A05621183FF4B
+- expected_values:
     LEAF_12V_CURR: -0.64453
   response: 79A05621183FF5B
 - expected_values:
