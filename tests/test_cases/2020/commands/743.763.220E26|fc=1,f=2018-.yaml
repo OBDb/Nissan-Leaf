@@ -4,6 +4,15 @@ test_cases:
     LEAF_TP_FL: 0
   response: '76304620E2600'
 - expected_values:
+    LEAF_TP_FL: 246.48758
+  response: 76304620E268F
+- expected_values:
+    LEAF_TP_FL: 249.93496
+  response: '76304620E2691'
+- expected_values:
+    LEAF_TP_FL: 253.38234
+  response: '76304620E2693'
+- expected_values:
     LEAF_TP_FL: 263.72448
   response: '76304620E2699'
 - expected_values:
