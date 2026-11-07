@@ -4,8 +4,8 @@ test_cases:
     LEAF_RANGE: null
   response: 76305620E2E0000
 - expected_values:
-    LEAF_RANGE: 9
-  response: 76305620E2E0009
+    LEAF_RANGE: 8
+  response: 76305620E2E0008
 - expected_values:
     LEAF_RANGE: 247
   response: 76305620E2E00F7
