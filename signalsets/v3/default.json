@@ -98,7 +98,7 @@
   ]},
 { "hdr": "797", "rax": "79A", "fcm1": true, "cmd": {"22": "1156"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2016, 2023], "from": 2025 },
   "signals": [
-    {"id": "LEAF_GEAR", "path": "Engine", "name": "Gear", "fmt": {"len": 8, "map": {
+    {"id": "LEAF_GEAR", "path": "Engine", "name": "Gear", "suggestedMetric": "gearSelector", "fmt": {"len": 8, "map": {
           "1": { "description": "Park",    "value": "PARK" },
           "2": { "description": "Reverse", "value": "REVERSE" },
           "3": { "description": "Neutral", "value": "NEUTRAL" },
