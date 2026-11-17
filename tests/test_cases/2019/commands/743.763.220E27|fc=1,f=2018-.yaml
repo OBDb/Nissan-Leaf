@@ -4,8 +4,8 @@ test_cases:
     LEAF_TP_RR: null
   response: '76304620E2700'
 - expected_values:
-    LEAF_TP_RR: 213.73749
-  response: 76304620E277C
+    LEAF_TP_RR: 170.64525
+  response: '76304620E2763'
 - expected_values:
     LEAF_TP_RR: 275.7903
   response: 76304620E27A0
