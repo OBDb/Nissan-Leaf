@@ -16,19 +16,19 @@
   "signals": [
     {"id": "LEAF_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15, "filter": { "from": 2018 }, "dbgfilter": { "years": [2023], "from": 2025 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15, "filter": { "from": 2018 }, "dbgfilter": { "years": [2021, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "nullmin": 0, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E26"}, "freq": 15, "filter": { "from": 2018 }, "dbgfilter": { "years": [2023], "from": 2025 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E26"}, "freq": 15, "filter": { "from": 2018 }, "dbgfilter": { "years": [2021, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "nullmin": 0, "unit": "kilopascal" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "filter": { "from": 2018 }, "dbgfilter": { "years": [2023], "from": 2025 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "filter": { "from": 2018 }, "dbgfilter": { "years": [2021, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "nullmin": 0, "unit": "kilopascal" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15, "filter": { "from": 2018 }, "dbgfilter": { "years": [2023], "from": 2025 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15, "filter": { "from": 2018 }, "dbgfilter": { "years": [2021, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "nullmin": 0, "unit": "kilopascal" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
@@ -36,7 +36,7 @@
   "signals": [
     {"id": "LEAF_SOC_DASH", "path": "Battery", "fmt": {"bix": 112, "len": 8, "max": 100, "unit": "percent" }, "name": "State of charge, as the dash shows it", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E2E"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "years": [2023], "from": 2025 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E2E"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "years": [2022, 2023], "from": 2025 },
   "signals": [
     {"id": "LEAF_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 2047, "nullmin": 0, "nullmax": 2047, "unit": "kilometers" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
   ]},
