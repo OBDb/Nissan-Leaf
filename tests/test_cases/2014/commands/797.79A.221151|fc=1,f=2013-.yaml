@@ -6,3 +6,18 @@ test_cases:
 - expected_values:
     LEAF_AC_PWR: 500
   response: 79A0462115102
+- expected_values:
+    LEAF_AC_PWR: 750
+  response: 79A0462115103
+- expected_values:
+    LEAF_AC_PWR: 1250
+  response: 79A0462115105
+- expected_values:
+    LEAF_AC_PWR: 1500
+  response: 79A0462115106
+- expected_values:
+    LEAF_AC_PWR: 1750
+  response: 79A0462115107
+- expected_values:
+    LEAF_AC_PWR: 2500
+  response: 79A046211510A
