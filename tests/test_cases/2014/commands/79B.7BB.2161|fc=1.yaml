@@ -1,10 +1,10 @@
 command_id: 79B.7BB.2161|fc=1
 test_cases:
 - expected_values:
-    LEAF_HVBAT_SOH: 75.88
+    LEAF_HVBAT_SOH: 75.57
   response: |-
-    7BB100C6161197D1DA4
-    7BB21FF1D161DA103FF
+    7BB100C616119411D85
+    7BB21FF1D161D8203FF
 - expected_values:
     LEAF_HVBAT_SOH: 76.3
   response: |-
