@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     LEAF_MOTOR_TQ: 0
   response: 79A056212540000
+- expected_values:
+    LEAF_MOTOR_TQ: 24.5
+  response: 79A056212540620
+- expected_values:
+    LEAF_MOTOR_TQ: 84
+  response: 79A056212541500

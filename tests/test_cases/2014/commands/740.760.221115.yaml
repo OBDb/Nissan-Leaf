@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     LEAF_APP: 0
   response: '7600462111500'
+- expected_values:
+    LEAF_APP: 19.5
+  response: '7600462111527'
+- expected_values:
+    LEAF_APP: 22.5
+  response: 760046211152D
+- expected_values:
+    LEAF_APP: 45.5
+  response: 760046211155B
+- expected_values:
+    LEAF_APP: 46.5
+  response: 760046211155D
+- expected_values:
+    LEAF_APP: 61
+  response: 760046211157A
