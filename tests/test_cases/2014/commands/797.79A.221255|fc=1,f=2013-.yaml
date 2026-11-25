@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     LEAF_RPM: 0
   response: 79A056212550000
+- expected_values:
+    LEAF_RPM: 2787
+  response: 79A056212550AE3
+- expected_values:
+    LEAF_RPM: 4647
+  response: 79A056212551227
